@@ -1,7 +1,9 @@
 from django.contrib import admin
 
 #import the Project model from portfolio/models.py
-from portfolio.models import Project
+
+#from portfolio.models import Project
+from .models import Project
 
 # Register your models here.
 

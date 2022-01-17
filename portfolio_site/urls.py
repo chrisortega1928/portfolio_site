@@ -4,13 +4,13 @@ from exchange_rate import views
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
-#from portfolio import views
+from portfolio import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
-    path('exchange_rate/', views.index, name='index'),
-    #path('blog/', include('blog.urls')),
+    path('', views.home, name='home'),
+    #path('exchange_rate/', views.index, name='index'),
+    path('blog/', include('blog.urls')),
     #path('about/', views.about, name='about'),
 ]
 
