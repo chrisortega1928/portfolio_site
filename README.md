@@ -1,5 +1,8 @@
 # Portfolio Site
 
+### To run the portfolio page:
+    python manage.py runserver
+
 Here are the links for my 5 chosen projects:
 
 Dad Jokes: https://github.com/chrisortega1928/bootcamp_projects/tree/main/frontend_projects/dad_jokes
